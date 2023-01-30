@@ -1,9 +1,12 @@
 import './App.css';
 
+let name = "Badsha Hossain"
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h2>My name is {name}</h2>
         <p>
         React Course In Bangladesh.
         </p>
