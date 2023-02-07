@@ -1,7 +1,7 @@
 
 let Header = () => {
     return (
-        <h1>This is the Header.</h1>
+        <h1>This is the Header Component.</h1>
     )
 }
 
