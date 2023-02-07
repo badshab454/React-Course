@@ -4,7 +4,7 @@ import './App.css';
 import Header from './Header'
 
 
-import Sidebar from './Sidebar'
+import {Sidebar, Footer} from './Sidebar'
 function App() {
   return (
     <div className="App">
@@ -14,6 +14,7 @@ function App() {
         <p>Bring it on.</p>
         <Header/>
         <Sidebar />
+        <Footer />
       </header>
     </div>
   );

@@ -4,8 +4,8 @@ function Sidebar () {
 
 const Footer = () => {
     return (
-        <h1>Footer</h1>
+        <h1>This is The Footer Component.</h1>
     )
 }
 
-export default Footer;
+export {Sidebar, Footer};
