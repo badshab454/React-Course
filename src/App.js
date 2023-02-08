@@ -1,10 +1,11 @@
 import './App.css';
+import Header from './Header';
+import Sidebar from './Sidebar';
 
 
-import Header from './Header'
 
+import Footer from './Footer';
 
-import {Footer} from './Sidebar'
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
         <h2>Hello World!</h2>
         <p>Bring it on.</p>
         <Header/>
+        <Sidebar />
         <Footer />
       </header>
     </div>
