@@ -8,4 +8,4 @@ const Footer = () => {
     )
 }
 
-export {Sidebar, Footer};
+export {Footer};
