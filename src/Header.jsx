@@ -1,7 +1,8 @@
 
+
 let Header = () => {
     return (
-        <h1>This is the Header Component.</h1>
+        <h1 className="header">This is the Header Component.</h1>
     )
 }
 
