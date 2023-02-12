@@ -1,8 +1,10 @@
 
 
-const Student = () => {
+const Student = (props) => {
   return (
-    <div>Student</div>
+    <div>{props.name}
+    <h1>{props.age}</h1>
+    </div>
   )
 }
 
