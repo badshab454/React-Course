@@ -1,10 +1,13 @@
 
+import Classes from './Classes';
 
-const Student = ({name, age}) => {
+const Student = (props) => {
   return (
-    <div><h1>{name}</h1>
-    <h1>{age}</h1>
-    </div>
+    <>
+      <h1>{props.name}</h1>
+      <h1>{props.age}</h1>
+      <Classes name={props.name} />
+    </>
   )
 }
 
