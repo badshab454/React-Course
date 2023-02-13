@@ -1,17 +1,21 @@
 import './App.css';
-import Header from './Header';
-import Sidebar from './Sidebar';
-import Footer from './Footer';
-
-
-
 import Student from './components/Student'
 
 function App() {
   return (
     <div className="App">
-      <Student name="Badsha Hossain" 
-      age={26} />
+      <Student 
+        name="Badsha Hossain" 
+        age={26} 
+      />
+      <Student 
+        name="Masud Rana" 
+        age={28} 
+      />
+      <Student 
+        name="Minhajur Rahman" 
+        age={26} 
+      />
     </div>
   );
 }
