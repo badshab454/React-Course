@@ -1,9 +1,9 @@
 
 
-const Student = (props) => {
+const Student = ({name, age}) => {
   return (
-    <div>{props.name}
-    <h1>{props.age}</h1>
+    <div><h1>{name}</h1>
+    <h1>{age}</h1>
     </div>
   )
 }
