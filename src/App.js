@@ -14,7 +14,7 @@ function App() {
       />
       <Student 
         name="Minhajur Rahman" 
-        age={26} 
+        age="bold"
       />
     </div>
   );

@@ -1,6 +1,8 @@
 
 import Classes from './Classes';
 
+import propTypes from 'prop-types'
+
 const Student = (props) => {
   return (
     <>
@@ -9,6 +11,11 @@ const Student = (props) => {
       <Classes name={props.name} />
     </>
   )
+}
+
+Student.propTypes = {
+  name: propTypes.string,
+  age: propTypes.number
 }
 
 export default Student
