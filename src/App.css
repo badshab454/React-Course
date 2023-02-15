@@ -38,6 +38,10 @@
 }
 
 
-h2 {
+h1 {
   margin: 0;
+}
+
+.header {
+  background-color: rgb(138, 71, 71);
 }
