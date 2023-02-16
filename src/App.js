@@ -8,6 +8,9 @@ function App() {
       <Header />
       <div className="main">
         <Movie />
+        <Movie />
+        <Movie />
+        <Movie />
       </div>
     </div>
   );
