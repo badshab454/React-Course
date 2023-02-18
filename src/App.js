@@ -11,6 +11,8 @@ function App() {
         <Movie />
         <Movie />
         <Movie />
+        <Movie />
+        <Movie />
       </div>
     </div>
   );
