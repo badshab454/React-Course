@@ -36,32 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-
-h1 {
-  margin: 0;
-}
-
-.header {
-  background-color: rgb(138, 71, 71);
-  padding: 8px;
-}
-
-.main {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 14px;
-}
-
-.movie {
-  background-color: rgb(128, 60, 206);
-  padding: 3px;
-  font-weight: bold;
-  text-align: start;
-  margin: 5px 0;
-}
-
-.movie img {
-  width: 300px;
-}
