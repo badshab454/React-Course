@@ -6,13 +6,6 @@ function App() {
   return (
     <div className="App">
       <Home />
-      <button className="btn btn-primary text-center">Try me</button>
-      <div className="container">
-        <div className="row">
-          <h2 className="col-md-6">Hello</h2>
-          <h2 className="col-md-6">Hello</h2>
-        </div>
-      </div>
     </div>
   );
 }
